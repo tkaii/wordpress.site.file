@@ -66,16 +66,37 @@ li {
 	height: 30vh;
 	border-radius: 2em;
 }
+.Recommended p{
+	color: #fff;
+	font-size: 1.5em;
+}
+.products {
+	padding-top: 2em;
+}
 .showcase p {
 	font-size: 1.5em;
 	color: #fff;
-	text-align: center;
 	padding: .4em;
 }
-
+.product p {
+	font-size: 1em;
+	color: #fff;
+}
+.product img {
+	height: 30vh;
+	width: 20vw;
+	padding: 1em;
+	border-radius: 2em;
+}
+.takecofee img {
+	border-radius: 2em;
+}
+.takecofee p{
+	font-size: 1.5em;
+}
 footer{
 	width: 100%;
-	background-color: #23415c;
+	background-color: #e7a23b;
 	padding: 5% 5% 5% 5%;
 	color: #fff;
 	text-align: center;
@@ -114,6 +135,15 @@ footer ul{
 	width: 100%;
 	border-radius: 2em;
 	object-fit: cover;
+}
+.product img {
+	border-radius: 2em;
+	width: 100%;
+	object-fit: cover;
+	min-height: 30vh;
+}
+.takecofee p {
+	padding-bottom: 2em;
 }
 }
 
